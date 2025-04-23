@@ -8,21 +8,18 @@ export const DATA = {
   location: "Lahore, Pakistan",
   locationLink: "https://maps.app.goo.gl/nqSUYf5atyhi6w9d6",
   description:
-    "Software Engineer turned Entrepreneur. I love building things and helping people.",
+    "Software Engineer who loves to explore ideas, build rapidly, and learn through shipping.",
   summary:
-    "I am a Full Stack Developer with expertise in backend development, passionate about creating scalable and secure applications using the latest web technologies.",
+    "I'm Haroon, a full-stack developer passionate about building scalable applications and exploring innovative technologies. With experience in React.js, Node.js, and AI integrations, I thrive in fast-paced environments where experimentation leads to impactful solutions. Let's build something remarkable together.",
   avatarUrl: "/me.jpg",
   skills: [
     "React",
     "Next.js",
     "Typescript",
     "Node.js",
-    "Python",
-    "Go",
     "Postgres",
     "Docker",
     "Kubernetes",
-    "Java",
     "C++",
   ],
   navbar: [
@@ -58,6 +55,42 @@ export const DATA = {
   },
 
   work: [
+    {
+      company: "GoRealTravel",
+      href: "https://gorealtravel.com/",
+      badges: [],
+      location: "Remote",
+      title: "Full Stack Developer",
+      logoUrl: "/gorealtravel.png",
+      start: "Sept 2023",
+      end: "Present",
+      description:
+        "Worked as a full-stack developer on a travel management platform. Led backend development using Ruby on Rails, with frontend built in Angular. Implemented subscription gates, Redis caching, itinerary tracking, SEO editing workflows, and HubSpot CRM integrations. Managed AWS infrastructure and automated deployment pipelines for seamless production updates.",
+    },
+    {
+      company: "Routd",
+      href: "https://routd.com/",
+      badges: [],
+      location: "Remote",
+      title: "React Native Developer",
+      logoUrl: "/routd.jpg", // Add a logo asset if you have one
+      start: "Apr 2024",
+      end: "Jan 2025",
+      description:
+        "Worked on Routd’s mobile application as a React Native developer. Implemented background location tracking using native modules written in Kotlin and Swift. Integrated real-time notifications using SignalR and worked on overall app performance optimization.",
+    },
+    {
+      company: "TradeFundrr",
+      href: "https://tradefundrr.com/",
+      badges: [],
+      location: "Remote",
+      title: "Frontend Developer",
+      logoUrl: "/tradefundrr.png",
+      start: "Feb 2023",
+      end: "May 2023",
+      description:
+        "Worked as a frontend developer using React.js. Built interactive financial charts and visualizations. Wrote unit and integration tests to ensure frontend reliability and maintainability. Collaborated with design and backend teams to deliver a seamless user experience.",
+    },
     {
       company: "Hashlogics",
       href: "https://hashlogics.com/",
